@@ -1,0 +1,46 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'FiraCode Nerd Font',Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 17,
+  "intelephense.phpdoc.classTemplate": {
+    "summary": "$1",
+    "tags": ["@package ${1:$SYMBOL_NAMESPACE}"]
+  },
+  "editor.fontLigatures": true,
+  "php.suggest.basic": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.sideBar.location": "right",
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "php": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "codeium.enableConfig": {
+    "*": true,
+    "snippets": true
+  },
+  "phpParameterHint.showFullType": true,
+  "phpParameterHint.hintOnlyLine": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    "tw=\"([^\"]*)",
+    "tw={\"([^\"}]*)",
+    "tw\\.\\w+`([^`]*)"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
